@@ -1,0 +1,147 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url(./assets/images/imagelink2-min.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  max-width: 100%;
+  min-height: 100vh;
+  height: auto;
+  letter-spacing: 0.1em;
+}
+
+.logo {
+  width: 300px;
+}
+
+h2 {
+  color: #024873;
+}
+
+.links__item {
+  display: block;
+  max-width: 550px;
+  margin: 0 auto 15px;
+  margin-bottom: 5px;
+  padding: 15px 20px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  color: black;
+}
+
+.links__item .links__item--alumni:hover {
+  background-color: #fff;
+}
+
+.links__item .links__item--upcoming:hover {
+  background-color: #fff;
+}
+
+.links__item .links__item--promo:hover {
+  background-color: #fff;
+}
+
+.links__item .links__item--past-event:hover {
+  background-color: #fff;
+}
+
+.links__item .links__item--featured:hover {
+  background-color: #fff;
+}
+
+.links__item .links__item--product:hover {
+  background-color: #fff;
+}
+
+.links__item .links__item--blog:hover {
+  background-color: #fff;
+}
+
+.links__item .links__item--upcoming {
+  border-bottom: 3px solid #ffa093;
+  box-shadow: inset 0 -4px 0 #ffa093;
+  border-radius: 25px;
+  border: 2px solid #ffa093;
+  background-color: #ffa093;
+}
+
+.links__item .links__item--promo {
+  border-bottom: 3px solid #80d6ff;
+  box-shadow: inset 0 -4px 0 #80d6ff;
+  border-radius: 25px;
+  border: 2px solid #80d6ff;
+  background-color: #80d6ff;
+}
+
+.links__item .links__item--past-event {
+  border-bottom: 3px solid #bedde8;
+  box-shadow: inset 0 -4px 0 #bedde8;
+  border-radius: 25px;
+  border: 2px solid #bedde8;
+  background-color: #bedde8;
+}
+
+.links__item .links__item--featured {
+  box-shadow: inset 0 -4px 0 #73e2a7;
+  border-radius: 25px;
+  border: 2px solid #73e2a7;
+  background-color: #73e2a7;
+}
+
+.links__item .links__item--product {
+  border-bottom: 3px solid #ffc15e;
+  box-shadow: inset 0 -4px 0 #ffc15e;
+  border-radius: 25px;
+  border: 2px solid #ffc15e;
+  background-color: #ffc15e;
+}
+
+.links__item .links__item--alumni {
+  border-bottom: 3px solid #fed766;
+  box-shadow: inset 0 -4px 0 #fed766;
+  border-radius: 25px;
+  border: 2px solid #fed766;
+  background-color: #fed766;
+}
+
+.links__item .links__item--blog {
+  border-bottom: 3px solid #fd8176;
+  box-shadow: inset 0 -4px 0 #fd8176;
+  border-radius: 25px;
+  border: 2px solid #fd8176;
+  background-color: #fd8176;
+}
+
+.channels {
+  display: flex;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.channels .channels__item {
+  flex: 1;
+  margin-right: 5px;
+  transition: transform 0.2s;
+}
+
+.channels__item:hover {
+  transform: scale(1.5);
+}
